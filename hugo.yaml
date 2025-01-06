@@ -1,4 +1,82 @@
-baseURL: 'https://example.org/'
-languageCode: 'en-gb'
-title: 'Nan Demo Hugo Site'
-theme: ["PaperMod"]
+# basic settings
+# baseURL: 'https://example.org/'
+languageCode: en-gb
+title: Digital Dojo
+theme: PaperMod
+
+# menu settings
+menu:
+  main:
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 10
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
+    - identifier: "archives"
+      name: "Archives"
+      url: "/archives/"
+      weight: 30
+  footer:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 10
+    - identifier: "contact"
+      name: "Contact"
+      url: "/contact/"
+      weight: 20
+    # - identifier: "privacy"
+    #   name: "Privacy"
+    #   url: "/privacy/"
+    #   weight: 30
+    # - identifier: "terms"
+    #   name: "Terms"
+    #   url: "/terms/"
+    #   weight: 40
+    # - identifier: "credits"
+    #   name: "Credits"
+    #   url: "/credits/"
+    #   weight: 50
+    # - identifier: "license"
+    #   name: "License"
+    #   url: "/license/"
+    #   weight: 60
+    # - identifier: "sitemap"
+    #   name: "Sitemap"
+    #   url: "/sitemap.xml"
+    #   weight: 70
+    # - identifier: "rss"
+    #   name: "RSS"
+    #   url: "/index.xml"
+    #   weight: 80
+    # - identifier: "github"
+    #   name: "GitHub"
+    #   url: ""
+
+# Home information
+params:
+  homeInfoParams:
+    Title: Hi, I'm Nan 👋
+    Content: My Name is Nan and I am a Digital Education specialist currently working in Cardiff University, UK. I am passionate about creating digital resources that are engaging and accessible to all. I am a Google Certified Educator and a Microsoft Innovative Educator. I am also a qualified teacher with a Masters in Education. 
+    Image: "/images/nan.jpg"
+
+  socialIcons: # optional
+    - name: Github
+      url: https://github.com/dandange8005
+    - name: LinkedIn
+      url: "<link2>"
+    - name: X
+      url: "<link3>"
+
+  assets:
+    disableFingerprinting: true
+
+# Enable search
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # necessary for search
