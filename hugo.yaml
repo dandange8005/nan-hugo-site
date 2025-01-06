@@ -1,5 +1,5 @@
 # basic settings
-# baseURL: 'https://example.org/'
+baseURL: 'https://digitaldojo.netlify.app/'
 languageCode: en-gb
 title: Digital Dojo
 theme: PaperMod
