@@ -7,10 +7,20 @@ theme: PaperMod
 # menu settings
 menu:
   main:
-    - identifier: "categories"
-      name: "Categories"
-      url: "/categories/"
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
       weight: 10
+    - identifier: "portfolio"
+      name: "Portfolio"
+      url: "/portfolio/"
+      weight: 10
+
+
+    # - identifier: "categories"
+    #   name: "Categories"
+    #   url: "/categories/"
+    #   weight: 10
     - identifier: "tags"
       name: "Tags"
       url: "/tags/"
@@ -20,10 +30,7 @@ menu:
       url: "/archives/"
       weight: 30
   footer:
-    - identifier: "about"
-      name: "About"
-      url: "/about/"
-      weight: 10
+    
     - identifier: "contact"
       name: "Contact"
       url: "/contact/"

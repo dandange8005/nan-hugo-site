@@ -1,11 +1,11 @@
 ---
-title: "One" # Title of the blog post
+title: "Example Blog Post" # Title of the blog post
 date: 2025-01-02 # YYYY-MM-DD
 draft: false #true if you don't want to publish the post, false if you do
 author: "Nan Zhang" # Author's name
-description: "My first blog post for the demo site" # Short description of the post
-tags: ["diged", "accessibility"] # Tags are used to classify posts by topic
-categories: ["Digital Education"] # Categories are broader classifications
+description: "My first blog post with the aim to test markdown syntax" # Short description of the post
+# tags: ["diged", "accessibility"] # Tags are used to classify posts by topic
+categories: ["uncategorised"] # Categories are broader classifications
 cover: # Cover image for the post
   image: "/images/hugo-logo-wide.svg" # Image file path
   alt: "Alt text" # Alt text for the image

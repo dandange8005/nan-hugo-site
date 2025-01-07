@@ -1,14 +1,14 @@
 ---
 title: My Initial Thoughts on VR and Immersive Education
 date: '2025-01-06T23:43:09Z'
-draft: false
+draft: true
 author: Nan Zhang
 tags: ["immersive technology", "VR", "XR", "AI"]
 categories: ["Digital Education"]
 
 ---
 
-Immersive technology and immersive education involves using AR, VR and XR technologies to enhance learning and teaching. When I consider the potential of these technologies in education, I often reflect on my own experience leading a Virtual OSCE project back in 2021. We didn't create a fully immersive environment - instead, we used 360-degree cameras to capture panoramic images and added Xerte-based educational activities as hotspots in different locations throughout the scenarios. Despite its limitations, this project gave me valuable insights into what's possible with immersive technologies in education.
+Immersive technology and immersive education involves using AR, VR and XR technologies to enhance learning and teaching. When I consider the potential of these technologies in education, I often reflect on my own experience leading a [Virtual OSCE project](/portfolio/virtual-isces/) back in 2021. We didn't create a fully immersive environment - instead, we used 360-degree cameras to capture panoramic images and added Xerte-based educational activities as hotspots in different locations throughout the scenarios. Despite its limitations, this project gave me valuable insights into what's possible with immersive technologies in education.
 
 I recently listened to our team's [latest podcast](https://spotifycreators-web.app.link/e/odD6e0j6hPb) featuring Laura Shearman from the University of West of England and Owen Crawford from our team. Owen's work on the Wales Virtual Hospital project during the pandemic particularly resonated with me, as it paralleled some of my own experiences. I found myself nodding along when he emphasised using VR as a delivery method rather than treating it as a teaching practice in itself - this really aligned with my thoughts about its pedagogical value.
 

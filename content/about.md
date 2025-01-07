@@ -3,13 +3,7 @@ title: "About Me"
 date: 2025-01-02
 draft: false
 description: "Learn more about who I am and what I do"
-# layout: "about"
-
-# Add to navigation menu
-menu:
-  main:
-    name: "About"
-    weight: 10
+layout: "about"
 
 # Optional cover image
 

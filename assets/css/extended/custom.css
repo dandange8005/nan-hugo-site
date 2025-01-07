@@ -2,13 +2,30 @@
 
 /* Define variables in :root for global scope */
 :root {
-    --primary-color: #9f6002;
+/* Base theme (light) */
+  --color-primary: #945c07;
+  --color-primary-hover: #945c06; /* Slightly darker for hover */
+  --color-primary-light: #ffedcc; /* Very light version for backgrounds */
 }
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+      --color-primary: #bf8432;    /* Lighter version of your primary color */
+      --color-primary-hover: #d99b3f; /* Even lighter for hover in dark mode */
+      --color-primary-light: #3d2601; /* Darker version for backgrounds */
+
+    }
+  }
 
 /* link */
 
 a {
-    color: var(--primary-color);
+    color: var(--color-primary);
+}
+
+a:hover {
+    color: var(--color-primary-hover);
 }
 
 
