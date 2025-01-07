@@ -80,3 +80,16 @@ params:
       - HTML
       - RSS
       - JSON # necessary for search
+
+# Ignore raw HTML
+
+# This setting allows Hugo to render raw HTML that's inside your Markdown files.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# This setting tells Hugo to suppress (not show) warnings about raw HTML in your Markdown files. Without this, Hugo would show warnings every time it encounters HTML in your content, which can clutter your build output. This setting essentially says "Don't warn me about raw HTML, I know it's there and I want it."
+logging:
+  ignoreErrors:
+    - message: 'Raw HTML omitted'
