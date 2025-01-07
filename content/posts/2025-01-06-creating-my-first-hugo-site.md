@@ -1,6 +1,6 @@
 ---
 title: "Creating My First Hugo Site" # Title of the blog post
-date: 2025-01-05 # YYYY-MM-DD
+date: 2025-01-06 # YYYY-MM-DD
 draft: false #true if you don't want to publish the post, false if you do
 author: Nan Zhang # Author's name
 description: "Some description" # Short description of the post

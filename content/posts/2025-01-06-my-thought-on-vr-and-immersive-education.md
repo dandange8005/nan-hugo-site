@@ -1,5 +1,5 @@
 ---
-title: My Initial Thoughts on VR and Immersive Technology
+title: My Initial Thoughts on VR and Immersive Education
 date: '2025-01-06T23:43:09Z'
 draft: false
 author: Nan Zhang
