@@ -1,12 +1,18 @@
 /* assets/css/extended/custom.css */
 
-/* Add your custom styles here */
-
-.primary {
-    color: #820b76;
+/* Define variables in :root for global scope */
+:root {
+    --primary-color: #9f6002;
 }
+
+/* link */
+
+a {
+    color: var(--primary-color);
+}
+
 
 /* Archives page */
 .page-header {
-    color: rgb(159, 96, 2);
+    color: var(--primary-color);
 }
