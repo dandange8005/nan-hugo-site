@@ -17,29 +17,37 @@ projectDetails:
 ---
 <!-- This is a portfolio entry page -->
 
-## Project Overview
+## Project Information
+
+### Overview
 
 During the COVID-19 pandemic, medical students faced unprecedented challenges in practicing their clinical skills. As the leading developer, I helped create an innovative virtual environment that simulated Integrated Structured Clinical Examinations (ISCEs), enabling remote practice while maintaining educational quality and assessment validity.
 
 ![Virtual ISCE Platform](/images/placeholder.jpg)
 
-## Project Presentation
+### Key Stakeholders and Roles
 
-View the full presentation: [360 Virtual ISCEs on Slides.com](https://slides.com/nanzhang/deck-91b859)
+| **Name**                     | **Role/Title**                     | **Responsibilities**                                         |
+|-------------------------------|-------------------------------------|-------------------------------------------------------------|
+| Dr. Elizabeth Metcalf (Liz)  | Director of Assessments and Lead for Clinical Assessments | Project oversight, content review, and ISCE booklet updates |
+| Sue Ensaff                   | Key Content Provider               | Station instructions, coordination, and content-related matters |
+| Allan Theophanides           | Learning Technology Manager        | Project management oversight                                |
+| Clinical Skills Team (Jayne, Owen) | Clinical Skills Team             | Skills Panopto videos, clinical resources, and materials    |
 
-<div style="position: relative; aspect-ratio: 16/9; width: 100%; margin: 2rem 0;">
-    <iframe 
-        src="https://slides.com/nanzhang/deck-91b859/embed" 
-        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-        title="360 Virtual ISCSs" 
-        scrolling="no" 
-        frameborder="0"
-        loading="lazy"
-        webkitallowfullscreen 
-        mozallowfullscreen 
-        allowfullscreen>
-    </iframe>
-</div>
+### Key Information
+
+- 12 total stations (6 for Year 2, 6 for Year 4)
+- Each station combines 360° Virtual Stations with Xerte learning objects
+- Stations numbered B1 to B6
+- Includes existing ISCE content adapted for virtual format
+
+### Project Timeline
+- April 8, 2020: Initial deadline set for April 20th
+- April 14-23, 2020: Initial development and content gathering
+- April 30, 2020: First stations (Year 2 and 4) developed for review 
+- May 13, 2020: Plan to complete all stations by end of May
+- June 4, 2020: Deployment to Learning Central
+- July 2020: Preparation for new academic year implementation
 
 ## Key Achievements
 
@@ -131,5 +139,23 @@ Plans for enhancement include:
 ![Station Overview](/images/placeholder-1.jpg)
 ![Interactive Elements](/images/placeholder-2.jpg)
 ![Student Interface](/images/placeholder-3.jpg)
+
+### Project Presentation
+
+View the full presentation: [360 Virtual ISCEs on Slides.com](https://slides.com/nanzhang/deck-91b859)
+
+<div style="position: relative; aspect-ratio: 16/9; width: 100%; margin: 2rem 0;">
+    <iframe 
+        src="https://slides.com/nanzhang/deck-91b859/embed" 
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        title="360 Virtual ISCSs" 
+        scrolling="no" 
+        frameborder="0"
+        loading="lazy"
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        allowfullscreen>
+    </iframe>
+</div>
 
 Feel free to [contact me](mailto:nelson_zhang80@hotmail.com) to learn more about this project or discuss potential collaborations.
