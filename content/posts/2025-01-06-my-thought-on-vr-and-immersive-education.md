@@ -1,11 +1,46 @@
 ---
+# Essential Fields
 title: My Initial Thoughts on VR and Immersive Education
-date: '2025-01-06T23:43:09Z'
-draft: true
-author: Nan Zhang
-tags: ["immersive technology", "VR", "XR", "AI"]
-categories: ["Digital Education"]
+date: 2025-01-06T23:43:09Z    # Publication date
+draft: true                   # Set to true during drafting
 
+# SEO and Display
+description: Exploring the potential of VR and immersive education in enhancing learning experiences.
+summary: Initial reflections on how VR and immersive technologies can transform education.
+keywords: ["immersive technology", "VR", "XR", "AI", "education"]
+slug: my-initial-thoughts-on-vr-and-immersive-education
+
+# Organization
+tags: ["immersive technology", "VR", "XR", "AI"]  # More specific
+categories: ["Digital Education"]                # Broader grouping
+series: ["Immersive Education Series"]           # Group related posts
+
+# Display Options
+# weight: 1               # Control post ordering (lower = higher priority)
+showToc: true           # Show table of contents
+tocOpen: false          # TOC expanded by default
+showBreadcrumbs: true
+
+# Featured Image
+cover:
+  image: /images/vr-immersive-education.jpg  # Update path as needed
+  alt: Virtual reality in education
+  caption: Virtual reality enhancing classroom experiences.
+  relative: false   # If true, image path is relative to page bundle
+
+# Custom Parameters
+# author: Nan Zhang
+showReadingTime: true
+showWordCount: true
+
+# PaperMod Specific
+ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowCodeCopyButtons: true
+searchHidden: false    # Hide from search
+hideSummary: false     # Hide summary in list
+hideFooter: false      # Hide post footer
 ---
 
 Immersive technology and immersive education involves using AR, VR and XR technologies to enhance learning and teaching. When I consider the potential of these technologies in education, I often reflect on my own experience leading a [Virtual OSCE project](/portfolio/virtual-isces/) back in 2021. We didn't create a fully immersive environment - instead, we used 360-degree cameras to capture panoramic images and added Xerte-based educational activities as hotspots in different locations throughout the scenarios. Despite its limitations, this project gave me valuable insights into what's possible with immersive technologies in education.
