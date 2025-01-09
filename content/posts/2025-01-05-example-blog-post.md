@@ -1,16 +1,38 @@
 ---
-title: "Example Blog Post" # Title of the blog post
-date: 2025-01-02 # YYYY-MM-DD
-draft: false #true if you don't want to publish the post, false if you do
-author: "Nan Zhang" # Author's name
-description: "My first blog post with the aim to test markdown syntax" # Short description of the post
-# tags: ["diged", "accessibility"] # Tags are used to classify posts by topic
-categories: ["uncategorised"] # Categories are broader classifications
-cover: # Cover image for the post
-  image: "/images/hugo-logo-wide.svg" # Image file path
-  alt: "Alt text" # Alt text for the image
-  caption: "Caption text" # Caption for the image
-showtoc: true # Enable Table of Contents for the post
+# Essential Fields
+title: Example Blog Post
+date: 2025-01-02    # Publication date
+draft: false        # Set to true during drafting
+
+# SEO and Display
+description: A brief, compelling summary for SEO and previews
+summary: Alternative to description, shown in list views
+keywords: [key, words, for, seo]
+slug: custom-url    # Override the default URL
+
+# Organization
+tags: [tag1, tag2]  # More specific
+categories: [cat1]  # Broader grouping
+series: [series-name]  # Group related posts
+
+# Display Options
+weight: 1           # Control post ordering (lower = higher priority)
+showToc: true       # Show table of contents
+tocOpen: false     # TOC expanded by default
+showBreadcrumbs: true
+
+# Featured Image
+cover:
+  image: /images/first-blog-post.jpg
+  alt: Alt text for accessibility
+  caption: Image caption
+  relative: false   # If true, image path is relative to page bundle
+
+# Custom Parameters
+# author: Nan Zhang
+showReadingTime: true
+showWordCount: true
+
 
 # PaperMod Specific
 ShowReadingTime: true
@@ -94,4 +116,5 @@ function greetUser(name) {
 
 ## Images
 
-![Hugo Logo](/images/first-blog-post.jpg)
+![Hugo Logo](/images/hugo-logo-wide.svg)
+![screenshot](/images/image.png)

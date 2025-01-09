@@ -29,10 +29,10 @@ During the COVID-19 pandemic, medical students faced unprecedented challenges in
 
 | **Name**                     | **Role/Title**                     | **Responsibilities**                                         |
 |-------------------------------|-------------------------------------|-------------------------------------------------------------|
-| Dr. Elizabeth Metcalf (Liz)  | Director of Assessments and Lead for Clinical Assessments | Project oversight, content review, and ISCE booklet updates |
-| Sue Ensaff                   | Key Content Provider               | Station instructions, coordination, and content-related matters |
-| Allan Theophanides           | Learning Technology Manager        | Project management oversight                                |
-| Clinical Skills Team (Jayne, Owen) | Clinical Skills Team             | Skills Panopto videos, clinical resources, and materials    |
+| **Dr. Elizabeth Metcalf (Liz)**  | Director of Assessments and Lead for Clinical Assessments | Project oversight, content review, and ISCE booklet updates |
+| **Sue Ensaff**                   | Key Content Provider               | Station instructions, coordination, and content-related matters |
+| **Allan Theophanides**           | Learning Technology Manager        | Project management oversight                                |
+| **Clinical Skills Team (Jayne, Owen)** | Clinical Skills Team             | Skills Panopto videos, clinical resources, and materials    |
 
 ### Key Information
 
@@ -42,12 +42,12 @@ During the COVID-19 pandemic, medical students faced unprecedented challenges in
 - Includes existing ISCE content adapted for virtual format
 
 ### Project Timeline
-- April 8, 2020: Initial deadline set for April 20th
-- April 14-23, 2020: Initial development and content gathering
-- April 30, 2020: First stations (Year 2 and 4) developed for review 
-- May 13, 2020: Plan to complete all stations by end of May
-- June 4, 2020: Deployment to Learning Central
-- July 2020: Preparation for new academic year implementation
+- **April 8, 2020:** Initial deadline set for April 20th
+- **April 14-23, 2020**: Initial development and content gathering
+- **April 30, 2020**: First stations (Year 2 and 4) developed for review 
+- **May 13, 2020**: Plan to complete all stations by end of May
+- **June 4, 2020**: Deployment to Learning Central
+- **July 2020**: Preparation for new academic year implementation
 
 ## Key Achievements
 

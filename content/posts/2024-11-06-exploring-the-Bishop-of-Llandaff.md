@@ -1,6 +1,6 @@
 ---
 title: "Exploring the Bishop of Llandaff - A School Open Day Experience" # Title of the blog post
-date: 2024-01-06 # YYYY-MM-DD
+date: 2024-11-06 # YYYY-MM-DD
 draft: false #true if you don't want to publish the post, false if you do
 author: "Nan Zhang" # Author's name
 description: "An open day journey through school visits, reflections, and decisions as we seek the perfect fit for Ethan's education and growth." # Short description of the post
