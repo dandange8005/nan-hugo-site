@@ -2,7 +2,7 @@
 # Essential Fields
 title: My Initial Thoughts on VR and Immersive Education
 date: 2025-01-06T23:43:09Z    # Publication date
-draft: true                   # Set to true during drafting
+draft: false                   # Set to true during drafting
 
 # SEO and Display
 description: Exploring the potential of VR and immersive education in enhancing learning experiences.
