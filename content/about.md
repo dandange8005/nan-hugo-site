@@ -14,7 +14,7 @@ layout: "about"
 
 Welcome to <span class="primary">Digital Dojo</span>.
 
-I'm a [Your Profession] based in [Your Location]. I specialize in [Your Specialties] and am passionate about [Your Interests].
+I'm a Digital Education specialist based in the UK. I specialize in [Your Specialties] and am passionate about [Your Interests].
 
 ## What I Do
 
