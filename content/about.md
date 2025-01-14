@@ -10,7 +10,7 @@ layout: "about"
 ---
 
 
-# Hello, I'm [Your Name] 👋
+# Hello, I'm Nan Zhang 👋
 
 Welcome to <span class="primary">Digital Dojo</span>.
 

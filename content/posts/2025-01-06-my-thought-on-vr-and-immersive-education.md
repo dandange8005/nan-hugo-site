@@ -5,8 +5,8 @@ date: 2025-01-06T23:43:09Z    # Publication date
 draft: false                   # Set to true during drafting
 
 # SEO and Display
-description: Exploring the potential of VR and immersive education in enhancing learning experiences.
-summary: Initial reflections on how VR and immersive technologies can transform education.
+description: "Exploring the potential of VR and immersive education in enhancing learning experiences."
+summary: "Initial reflections on how VR and immersive technologies can transform education."
 keywords: ["immersive technology", "VR", "XR", "AI", "education"]
 slug: my-initial-thoughts-on-vr-and-immersive-education
 
@@ -23,7 +23,7 @@ showBreadcrumbs: true
 
 # Featured Image
 cover:
-  image: /images/vr-immersive-education.jpg  # Update path as needed
+  # image: /images/vr-immersive-education.jpg  # Update path as needed
   alt: Virtual reality in education
   caption: Virtual reality enhancing classroom experiences.
   relative: false   # If true, image path is relative to page bundle
