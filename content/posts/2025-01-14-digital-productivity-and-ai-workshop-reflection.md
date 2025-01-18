@@ -26,9 +26,8 @@ showBreadcrumbs: true
 
 # Featured Image
 cover:
-  # image: /images/first-blog-post.jpg
-  alt: Alt text for accessibility
-  caption: Image caption
+  image: /images/office-laptop-ai.webp
+  alt: A modern office desk with a laptop showing AI graphics, notepads, pens, and a light bulb, all under soft lighting that suggests innovation and growth.
   relative: false   # If true, image path is relative to page bundle
 
 # Custom Parameters
@@ -52,7 +51,7 @@ Today, I attended an enlightening workshop on "Digital Productivity and AI in th
 
 The session began with an engaging Menti activity, where participants shared their immediate thoughts about AI. What struck me most was the diversity of responses – ranging from optimistic views about innovation to concerns about the unknown. This variety of perspectives highlighted how our backgrounds and experiences shape our understanding of AI.
 
-We then dove into a SWOT analysis in groups, where I had the opportunity to discuss personalised learning – a topic I'm particularly passionate about. It was reassuring to see this highlighted as one of the key opportunities in the AI landscape.
+We then dove into a SWOT analysis in groups, where I had the opportunity to discuss personalised learning using AI – a topic I'm particularly passionate about. It was reassuring to see this highlighted as one of the key opportunities in the AI landscape.
 
 ## Critical Reflections on AI's Impact
 
@@ -89,6 +88,10 @@ One particularly engaging exercise involved generating names for alcoholic bever
 > Take the role of a male, aged 18-35. What would be the name of an alcoholic beverage that might attract you? The tone should be mildly humourous and not sound too toxically masculine. The name should not sound like any existing products in the UK. Provide ten examples in a three column array. Column one should contain the name. Column two should be what you rate that suggestion in order of one to ten. Column three should explain your reasoning. Some example would be MoonBrew, AuAle, BarleBite.
 
 Among the generated names, "Brewtiful" stood out to me personally, as it reminded me of how my sons playfully pronounce "beautiful" as "butiful." I then experimented further by asking Copilot to generate matching branding and color schemes for this name, demonstrating how AI can assist in creative processes from initial concept to visual design.
+
+<!-- ![AI-generated branding for "Brewtiful"](/images/brewtiful-branding.webp) -->
+
+{{< figure src="/images/brewtiful-branding.webp" caption="AI-generated branding for Brewtiful">}}
 
 ### Data Governance and Security
 

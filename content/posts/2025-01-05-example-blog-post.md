@@ -2,7 +2,7 @@
 # Essential Fields
 title: Example Blog Post
 date: 2025-01-02    # Publication date
-draft: false        # Set to true during drafting
+draft: true        # Set to true during drafting
 
 # SEO and Display
 description: A brief, compelling summary for SEO and previews

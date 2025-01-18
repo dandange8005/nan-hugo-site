@@ -9,7 +9,6 @@ categories: ["Digital Education"] # Categories are broader classifications
 showtoc: true # Enable Table of Contents for the post
 ---
 
-
 ## Introduction
 
 This is a guide to create a blog site using Hugo and Github Pages. Hugo is a static site generator written in Go. It is very fast and easy to use. Github Pages is a static site hosting service provided by Github. It is free and easy to use. You can use your own domain name with Github Pages.
