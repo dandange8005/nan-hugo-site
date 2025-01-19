@@ -7,16 +7,16 @@ draft: true        # Set to true during drafting
 # SEO and Display
 description: A brief, compelling summary for SEO and previews
 summary: Alternative to description, shown in list views
-keywords: [key, words, for, seo]
-slug: custom-url    # Override the default URL
+# keywords: [key, words, for, seo]
+# slug: custom-url    # Override the default URL
 
 # Organization
-tags: [tag1, tag2]  # More specific
-categories: [cat1]  # Broader grouping
-series: [series-name]  # Group related posts
+# tags: [tag1, tag2]  # More specific
+# categories: [cat1]  # Broader grouping
+# series: [series-name]  # Group related posts
 
 # Display Options
-weight: 1           # Control post ordering (lower = higher priority)
+# weight: 1           # Control post ordering (lower = higher priority)
 showToc: true       # Show table of contents
 tocOpen: false     # TOC expanded by default
 showBreadcrumbs: true
