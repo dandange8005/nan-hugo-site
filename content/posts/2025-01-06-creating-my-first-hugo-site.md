@@ -2,11 +2,19 @@
 title: "Creating My First Hugo Site" # Title of the blog post
 date: 2025-01-06 # YYYY-MM-DD
 draft: false #true if you don't want to publish the post, false if you do
+
+# Featured Image
+cover:
+  image: /images/hugo-logo-wide.svg
+  alt: Hugo logo
+  caption: Hugo logo in svg format
+  relative: false   # If true, image path is relative to page bundle
+
 author: Nan Zhang # Author's name
 description: "Some description" # Short description of the post
-tags: ["diged", "accessibility"] # Tags are used to classify posts by topic
-categories: ["Digital Education"] # Categories are broader classifications
-showtoc: true # Enable Table of Contents for the post
+tags: ["Hugo", "development"] # Tags are used to classify posts by topic
+categories: ["Development"] # Categories are broader classifications
+showtoc: false # Enable Table of Contents for the post
 ---
 
 ## Introduction
