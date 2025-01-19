@@ -11,7 +11,7 @@ keywords: [AI development, Electron app, image processing, ChatGPT, Claude, desk
 slug: ai-assisted-app-development    
 
 # Organization
-tags: [AI development, Electron, image processing, GenAI, desktop apps, web development]
+tags: [AI, Electron, image processing, GenAI, desktop apps, web development]
 categories: [Technology, Development]
 series: [AI-Assisted Development]
 
