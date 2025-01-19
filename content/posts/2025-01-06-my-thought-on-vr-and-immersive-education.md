@@ -23,7 +23,7 @@ showBreadcrumbs: true
 
 # Featured Image
 cover:
-  # image: /images/vr-immersive-education.jpg  # Update path as needed
+  image: /images/vr_headset_processed_1000.webp  # Update path as needed
   alt: Virtual reality in education
   caption: Virtual reality enhancing classroom experiences.
   relative: false   # If true, image path is relative to page bundle
