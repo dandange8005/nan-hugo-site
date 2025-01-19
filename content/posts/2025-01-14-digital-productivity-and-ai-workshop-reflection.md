@@ -89,9 +89,7 @@ One particularly engaging exercise involved generating names for alcoholic bever
 
 Among the generated names, "Brewtiful" stood out to me personally, as it reminded me of how my sons playfully pronounce "beautiful" as "butiful." I then experimented further by asking Copilot to generate matching branding and color schemes for this name, demonstrating how AI can assist in creative processes from initial concept to visual design.
 
-<!-- ![AI-generated branding for "Brewtiful"](/images/brewtiful-branding.webp) -->
-
-{{< figure src="/images/brewtiful-branding.webp" caption="AI-generated branding for Brewtiful">}}
+{{< figure src="/images/Brewtiful_brand_processed_1000.webp" caption="AI-generated branding for Brewtiful">}}
 
 ### Data Governance and Security
 
