@@ -67,7 +67,7 @@ menu:
 params:
   homeInfoParams:
     Title: Hi, I'm Nan 👋
-    Content: My Name is Nan and I am a Digital Education specialist currently working in Cardiff University, UK. I am passionate about creating digital resources that are engaging and accessible to all. I am a Google Certified Educator and a Microsoft Innovative Educator. I am also a qualified teacher with a Masters in Education. 
+    Content: My Name is Nan and I am a Digital Education specialist currently working in Cardiff University, UK. I specialize in instructional design, learning technology implementation, and digital transformation in higher education. I'm passionate about creating innovative, accessible learning experiences and empowering educators through technology. 
     Image: "/images/nan.jpg"
 
   socialIcons: # optional
