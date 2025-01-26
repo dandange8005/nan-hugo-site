@@ -63,7 +63,7 @@ menu:
     #   name: "GitHub"
     #   url: ""
 
-# Home information
+# theme settings
 params:
   homeInfoParams:
     Title: Hi, I'm Nan 👋
@@ -87,6 +87,10 @@ params:
       - HTML
       - RSS
       - JSON # necessary for search
+  search:
+    enabled: true
+    shortcut: [/]
+
 
 # Ignore raw HTML
 
