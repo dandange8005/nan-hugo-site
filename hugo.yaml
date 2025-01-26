@@ -15,20 +15,23 @@ menu:
       name: "Portfolio"
       url: "/portfolio/"
       weight: 10
-
-
     # - identifier: "categories"
     #   name: "Categories"
     #   url: "/categories/"
     #   weight: 10
-    - identifier: "tags"
-      name: "Tags"
-      url: "/tags/"
-      weight: 20
+    # - identifier: "tags"
+    #   name: "Tags"
+    #   url: "/tags/"
+    #   weight: 20
     - identifier: "archives"
       name: "Archives"
       url: "/archives/"
-      weight: 30
+      weight: 10
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 10
+    
   footer:
     
     - identifier: "contact"
@@ -63,6 +66,13 @@ menu:
     #   name: "GitHub"
     #   url: ""
 
+# Enable search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
 # theme settings
 params:
   homeInfoParams:
@@ -81,12 +91,7 @@ params:
   assets:
     disableFingerprinting: true
 
-# Enable search
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON # necessary for search
+
   search:
     enabled: true
     shortcut: [/]
