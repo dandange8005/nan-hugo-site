@@ -18,6 +18,12 @@
     }
   }
 
+/* Basic */
+
+body {
+  font-size: clamp(0.94rem, 0.86rem + 0.37vw, 1rem);
+}
+
 /* link */
 
 a {
@@ -26,6 +32,12 @@ a {
 
 a:hover {
     color: var(--color-primary-hover);
+}
+
+/* Typography */
+
+.post-description {
+  color: #7e8282;
 }
 
 

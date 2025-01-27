@@ -3,17 +3,15 @@ title: "Virtual ISCEs Project"
 date: 2021-01-07
 description: "Developing an innovative virtual clinical examination platform for medical students during COVID-19"
 draft: false
-# tags: ["medical education", "virtual reality", "e-learning", "clinical skills", "COVID-19"]
-# categories: ["Portfolio"]
+cover:
+   image: "/portfolio/virtual-isces/images/virtual_isces_processed.webp"  # If you have a featured image
+   alt: "Virtual ISCEs Project"  # Alt text
+   hidden: false 
+client: "Medical School"
+technologies: ["Yi 360 Camera", "Marzipano", "Xerte", "JavaScript", "HTML/CSS"]
 weight: 1  # Controls the order in portfolio listing
-resources:
-  - name: featured-image
-    src: "images/featured.jpg"  # If you have a featured image
-projectDetails:
-    client: "Medical School"
-    year: "2021"
-    role: "Co-Lead Developer"
-    technologies: ["Yi 360 Camera", "Marzipano", "Xerte", "JavaScript", "HTML/CSS"]
+tags: ["medical education", "virtual reality", "e-learning", "clinical skills", "COVID-19"]
+# categories: ["Portfolio"]
 ---
 <!-- This is a portfolio entry page -->
 

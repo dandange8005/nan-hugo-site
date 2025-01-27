@@ -1,0 +1,43 @@
+{{/* layouts/portfolio/single.html */}}
+{{- define "main" }}
+<article class="post-single portfolio-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    
+    {{- with .Params.technologies }}
+    <div class="tech-tags">
+      {{- range . }}
+      <span class="tech-tag">{{ . }}</span>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{- with .Params.projectUrl }}
+    <div class="project-links">
+      <a href="{{ . }}" target="_blank" rel="noopener noreferrer">View Project →</a>
+    </div>
+    {{- end }}
+  </header>
+
+  {{- $isHidden := (.Param "cover.hiddenInSingle") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    {{- if .Params.repository }}
+    <div class="project-repo">
+      <a href="{{ .Params.repository }}" target="_blank" rel="noopener noreferrer">View Source Code →</a>
+    </div>
+    {{- end }}
+  </footer>
+</article>
+{{- end }}

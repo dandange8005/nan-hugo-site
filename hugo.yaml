@@ -77,7 +77,7 @@ outputs:
 params:
   homeInfoParams:
     Title: Hi, I'm Nan 👋
-    Content: My Name is Nan and I am a Digital Education specialist currently working in Cardiff University, UK. I specialize in instructional design, learning technology implementation, and digital transformation in higher education. I'm passionate about creating innovative, accessible learning experiences and empowering educators through technology. 
+    Content: Welcome to my Digital Canvas. I am a Digital Education specialist currently working in Cardiff University, UK. I specialize in instructional design, learning technology implementation, and digital transformation in higher education. I'm passionate about creating innovative, accessible learning experiences and empowering educators through technology. 
     Image: "/images/nan.jpg"
 
   socialIcons: # optional

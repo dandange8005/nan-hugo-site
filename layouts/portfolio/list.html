@@ -1,0 +1,43 @@
+{{/* layouts/portfolio/list.html */}}
+{{- define "main" }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+<div class="portfolio-grid">
+  {{- range .Pages }}
+  <article class="portfolio-entry">
+    {{- $isHidden := (.Param "cover.hiddenInList") | default false }}
+    <div class="portfolio-cover">
+      {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+    </div>
+    <header class="entry-header">
+      <h2>{{ .Title }}</h2>
+      {{- with .Params.technologies }}
+      <div class="tech-tags">
+        {{- range . }}
+        <span class="tech-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+    </header>
+    <div class="entry-content">
+      {{ .Description }}
+    </div>
+    <a class="entry-link" aria-label="project link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+</div>
+{{- end }}
