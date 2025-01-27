@@ -1,26 +1,12 @@
-{{/* layouts/portfolio/single.html */}}
 {{- define "main" }}
 <article class="post-single portfolio-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title">{{ .Title }}</h1>
+    
     {{- if .Description }}
     <div class="post-description">
       {{ .Description }}
-    </div>
-    {{- end }}
-    
-    {{- with .Params.technologies }}
-    <div class="tech-tags">
-      {{- range . }}
-      <span class="tech-tag">{{ . }}</span>
-      {{- end }}
-    </div>
-    {{- end }}
-
-    {{- with .Params.projectUrl }}
-    <div class="project-links">
-      <a href="{{ . }}" target="_blank" rel="noopener noreferrer">View Project →</a>
     </div>
     {{- end }}
   </header>
@@ -28,15 +14,79 @@
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
 
+
+  <div class="project-meta">
+    <div class="meta-grid">
+      {{- with .Params.client }}
+      <div class="meta-item">
+        <span class="meta-label">Client</span>
+        <span class="meta-value">{{ . }}</span>
+      </div>
+      {{- end }}
+      
+      {{- with .Params.role }}
+      <div class="meta-item">
+        <span class="meta-label">Role</span>
+        <span class="meta-value">{{ . }}</span>
+      </div>
+      {{- end }}
+      
+      {{- with .Params.duration }}
+      <div class="meta-item">
+        <span class="meta-label">Duration</span>
+        <span class="meta-value">{{ . }}</span>
+      </div>
+      {{- end }}
+      
+      {{- with .Params.technologies }}
+      <div class="meta-item technologies">
+        <span class="meta-label">Technologies</span>
+        <div class="tech-tags">
+          {{- range . }}
+          <span class="tech-tag">{{ . }}</span>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+      {{- with .Params.projectUrl }}
+      <div class="meta-item">
+        <span class="meta-label">Live Project</span>
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+      </div>
+      {{- end }}
+
+      {{- with .Params.repository }}
+      <div class="meta-item">
+        <span class="meta-label">Repository</span>
+        <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="project-link">View Source</a>
+      </div>
+      {{- end }}
+    </div>
+
+    {{- with .Params.highlights }}
+    <div class="highlights-section">
+      <h2>Key Highlights</h2>
+      <ul class="highlights-list">
+        {{- range . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </div>
+
   <div class="post-content">
     {{ .Content }}
   </div>
 
   <footer class="post-footer">
-    {{- if .Params.repository }}
-    <div class="project-repo">
-      <a href="{{ .Params.repository }}" target="_blank" rel="noopener noreferrer">View Source Code →</a>
-    </div>
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range .Params.tags }}
+      <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+      {{- end }}
+    </ul>
     {{- end }}
   </footer>
 </article>

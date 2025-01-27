@@ -1,3 +1,4 @@
+/* portfolio list */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -59,4 +60,135 @@
 
   .entry-header h2 {
     color: var(--color-primary);
+  }
+
+
+/* Portfolio single */
+.project-meta {
+    background: var(--entry);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border);
+  }
+  
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  
+  .meta-label {
+    font-weight: 600;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  
+  .meta-value {
+    color: var(--primary);
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    background: var(--primary);
+    color: var(--theme);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+  }
+  
+  .project-link:hover {
+    transform: translateY(-1px);
+  }
+  
+  .project-link::after {
+    content: "→";
+    margin-left: 0.25rem;
+  }
+  
+  .highlights-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  
+  .highlights-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+  
+  .highlights-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .highlights-list li {
+    position: relative;
+    padding: 0.75rem 1rem;
+    padding-left: 2rem;
+    background: var(--code-bg);
+    border-radius: var(--radius);
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  .highlights-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0.75rem;
+    color: var(--primary);
+    font-weight: bold;
+  }
+  
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tech-tag {
+    background: var(--tertiary);
+    padding: 0.35rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--primary);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .project-meta {
+      padding: 1rem;
+      margin: 1rem 0;
+    }
+  
+    .meta-grid {
+      gap: 1rem;
+    }
+  
+    .highlights-list {
+      grid-template-columns: 1fr;
+    }
   }

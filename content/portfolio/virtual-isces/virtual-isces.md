@@ -1,17 +1,37 @@
 ---
+# Project-specific metadata
 title: "Virtual ISCEs Project"
-date: 2021-01-07
+layout: "portfolio/single"
 description: "Developing an innovative virtual clinical examination platform for medical students during COVID-19"
+client: "School of Medicine"
+role: "Lead Developer"
+duration: "3 months"
+technologies: 
+   - Yi 360 Camera
+   - Marzipano
+   - Xerte
+   - JavaScript
+   - HTML/CSS
+projectUrl: "https://learningcentral.cf.ac.uk/bbcswebdav/pid-5501410-dt-content-rid-15024706_4/xid-15024706_4"
+repository: "https://github.com/dandange8005/Xerte/tree/c74b35566b1bb73049eb039cb154c6bbb3666258/Virtual%20ISCEs"
+highlights:
+   - Engaged 400+ students across multiple year groups
+   - Generated 1,300+ views across examination stations
+   - Recorded 10,000+ student interactions
+# Hugo default metadata
+date: 2021-01-07
 draft: false
 cover:
-   image: "/portfolio/virtual-isces/images/virtual_isces_processed.webp"  # If you have a featured image
-   alt: "Virtual ISCEs Project"  # Alt text
-   hidden: false 
-client: "Medical School"
-technologies: ["Yi 360 Camera", "Marzipano", "Xerte", "JavaScript", "HTML/CSS"]
-weight: 1  # Controls the order in portfolio listing
-tags: ["medical education", "virtual reality", "e-learning", "clinical skills", "COVID-19"]
-# categories: ["Portfolio"]
+   image: "/portfolio/virtual-isces/images/virtual_isces_processed.webp"
+   alt: "Virtual ISCEs Project"
+   hiddenInSingle: true  
+weight: 1
+tags:
+   - medical education
+   - virtual reality
+   - clinical skills
+   - COVID-19
+featured: false
 ---
 <!-- This is a portfolio entry page -->
 
