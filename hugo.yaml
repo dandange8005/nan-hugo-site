@@ -90,6 +90,7 @@ params:
 
   assets:
     disableFingerprinting: true
+    favicon: "/favicon.ico"
 
 
   search:

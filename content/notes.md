@@ -39,3 +39,28 @@ I've also added a notice shortcode to the site. The shortcode is located at `lay
 - created a new to-do list
 - updated CLAUDE.md with site architecture and development workflow
 - created a sub agent "hugo-blog-publisher" to help with blog post publishing
+
+### How to Create and Use Agents in Claude Code
+
+**Creating an Agent:**
+1. Use the `/agents` slash command to see available agent types
+2. Create with: `@agent-[type-name]` (e.g., `@agent-hugo-blog-publisher`)
+3. Agent gets specialized tools and knowledge for specific tasks
+
+**Using an Agent:**
+1. **Direct invocation**: Mention the agent by name (e.g., "use @agent-hugo-blog-publisher")
+2. **Task delegation**: Provide content and ask agent to handle it (e.g., "publish this as a blog post")
+3. **Automatic invocation**: Claude may invoke appropriate agents based on task context
+
+**Agent Benefits:**
+- Specialized knowledge for specific tasks
+- Consistent workflows and formatting
+- Reduced manual configuration
+- Task-specific optimization
+
+**Example Workflow:**
+```
+User: "Here's my draft blog content..."
+Assistant: [Invokes hugo-blog-publisher agent automatically]
+Agent: Creates properly formatted Hugo post with frontmatter, SEO, etc.
+```
