@@ -32,3 +32,10 @@ I've also added a notice shortcode to the site. The shortcode is located at `lay
 - Added a search page to the site. The search page is located at `content/search.md`.
 - The search page uses the `search` layout.
 - Added search to main menu.
+
+## 2025-09-26
+
+- published two blog posts
+- created a new to-do list
+- updated CLAUDE.md with site architecture and development workflow
+- created a sub agent "hugo-blog-publisher" to help with blog post publishing
