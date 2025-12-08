@@ -3,7 +3,6 @@
 ## To-Dos
 
 - [ ] Contact IT to get my site lifted from restriction
-- [ ] Add a favicon to the site
 - [ ] Continue adding portfolio items to the website
 
 ## Portfolio Items to Add
