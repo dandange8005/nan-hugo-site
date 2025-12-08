@@ -88,3 +88,16 @@ Throughout the workshops, the delegates expressed strong interest in how the med
 Perhaps most significantly, we've identified a real opportunity to bridge a gap. The absence of dedicated learning design and educational technology teams in many Chinese institutions means there's considerable potential for knowledge exchange and collaborative course development. The delegates were keen to explore peer-to-peer exchanges with UK specialists who share their clinical specialties, combining clinical expertise with pedagogical innovation.
 
 This initial project has laid strong foundations – not just in terms of the biopsy course we've created together, but in demonstrating a model of international collaboration that values both clinical expertise and educational design. The experience has reinforced for me the value of bringing together diverse skills and perspectives, and I'm excited to see where these connections lead.
+
+## Workshop Gallery
+
+{{< gallery columns="3" >}}
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3006.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3007.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3011.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3012.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3028.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3029.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3038.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3043.jpeg
+{{< /gallery >}}

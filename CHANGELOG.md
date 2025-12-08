@@ -14,6 +14,15 @@ All notable changes and development work for this Hugo site will be documented i
 
 ### Added
 - New blog post: "Bridging Cultures and Creating Courses: A Collaborative Journey with Jilin University"
+- Gallery shortcode functionality for blog posts with lightbox support
+  - Added 8 workshop images to Jilin University collaboration post
+  - Created organized image directory structure: `static/images/posts/[post-slug]/`
+  - Gallery supports configurable columns, gap, and lightbox parameters
+
+### Fixed
+- Gallery shortcode template bug: replaced incorrect `trim` function calls with `strings.TrimSpace`
+  - Fixed template error at `layouts/shortcodes/gallery.html:6-13`
+  - Gallery now properly handles whitespace in image paths and captions
 
 ## [2025-01-26]
 

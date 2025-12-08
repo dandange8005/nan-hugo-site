@@ -1,0 +1,3 @@
+{{- /* Custom head extensions for gallery lightbox */ -}}
+{{- $gallery := resources.Get "js/gallery.js" | minify | fingerprint -}}
+<script src="{{ $gallery.RelPermalink }}" defer></script>

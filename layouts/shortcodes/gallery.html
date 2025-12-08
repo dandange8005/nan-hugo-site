@@ -1,0 +1,30 @@
+{{- $lightbox := .Get "lightbox" | default "true" -}}
+{{- $columns := .Get "columns" | default "3" -}}
+{{- $gap := .Get "gap" | default "1rem" -}}
+
+<div class="gallery" data-lightbox="{{ $lightbox }}" style="--gallery-columns: {{ $columns }}; --gallery-gap: {{ $gap }};">
+  {{- range split (strings.TrimSpace .Inner) "\n" -}}
+    {{- $item := strings.TrimSpace . -}}
+    {{- if $item -}}
+      {{- $parts := split $item "|" -}}
+      {{- $src := strings.TrimSpace (index $parts 0) -}}
+      {{- $caption := "" -}}
+      {{- if gt (len $parts) 1 -}}
+        {{- $caption = strings.TrimSpace (index $parts 1) -}}
+      {{- end -}}
+
+      <div class="gallery-item">
+        {{- if eq $lightbox "true" -}}
+          <a href="{{ $src }}" class="gallery-link" data-caption="{{ $caption }}">
+            <img src="{{ $src }}" alt="{{ $caption }}" loading="lazy">
+          </a>
+        {{- else -}}
+          <img src="{{ $src }}" alt="{{ $caption }}" loading="lazy">
+        {{- end -}}
+        {{- if $caption -}}
+          <div class="gallery-caption">{{ $caption | markdownify }}</div>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  {{- end -}}
+</div>

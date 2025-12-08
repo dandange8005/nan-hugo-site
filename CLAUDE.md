@@ -35,6 +35,7 @@ This is a Hugo static site for Nan Zhang's personal website (https://www.nanzhan
   - `portfolio/list.html` - Portfolio index page layout
   - `portfolio/single.html` - Individual project page layout
   - `shortcodes/notice.html` - Custom notice shortcode
+  - `shortcodes/gallery.html` - Image gallery with optional lightbox
 
 ### Configuration
 - Main config: `hugo.yaml`
@@ -85,3 +86,52 @@ The site uses PaperMod theme with customizations for:
 - Responsive design for project showcases
 
 When making theme-related changes, modify files in the `layouts/` directory rather than directly editing theme files to maintain upgrade compatibility.
+
+## Custom Shortcodes
+
+### Gallery Shortcode
+
+The `gallery` shortcode creates responsive image galleries with optional lightbox functionality.
+
+**Basic Usage:**
+```markdown
+{{</* gallery */>}}
+/images/photo1.jpg | Caption for photo 1
+/images/photo2.jpg | Caption for photo 2
+/images/photo3.jpg | Caption for photo 3
+{{</* /gallery */>}}
+```
+
+**Parameters:**
+- `lightbox` (optional, default: "true") - Enable/disable lightbox click-to-zoom functionality
+- `columns` (optional, default: "3") - Number of columns in the gallery grid
+- `gap` (optional, default: "1rem") - Gap between images
+
+**Advanced Examples:**
+
+2-column gallery without lightbox:
+```markdown
+{{</* gallery lightbox="false" columns="2" */>}}
+/images/photo1.jpg | First photo
+/images/photo2.jpg | Second photo
+{{</* /gallery */>}}
+```
+
+4-column gallery with custom gap:
+```markdown
+{{</* gallery columns="4" gap="0.5rem" */>}}
+/images/photo1.jpg
+/images/photo2.jpg
+/images/photo3.jpg
+/images/photo4.jpg
+{{</* /gallery */>}}
+```
+
+**Features:**
+- Responsive design (automatically adjusts to 2 columns on tablets, 1 column on mobile)
+- Click images to view in fullscreen lightbox
+- Navigate between images using arrow buttons or keyboard (← →)
+- Press ESC to close lightbox
+- Smooth hover effects on gallery images
+- Lazy loading for better performance
+- Optional captions for each image
