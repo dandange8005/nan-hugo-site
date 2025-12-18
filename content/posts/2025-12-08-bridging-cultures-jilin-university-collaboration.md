@@ -92,12 +92,12 @@ This initial project has laid strong foundations – not just in terms of the bi
 ## Workshop Gallery
 
 {{< gallery columns="3" >}}
-/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3006.jpeg
+/images/posts/bridging-cultures-jilin-university-collaboration/R52_0572.JPG
+/images/posts/bridging-cultures-jilin-university-collaboration/R52_0702.JPG
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3007.jpeg
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3011.jpeg
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3012.jpeg
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3028.jpeg
-/images/posts/bridging-cultures-jilin-university-collaboration/IMG_3029.jpeg
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3038.jpeg
 /images/posts/bridging-cultures-jilin-university-collaboration/IMG_3043.jpeg
 {{< /gallery >}}
