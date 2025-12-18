@@ -27,6 +27,12 @@ showToc: true       # Show table of contents
 tocOpen: false     # TOC expanded by default
 showBreadcrumbs: true
 
+# Featured Image
+cover:
+  image: /images/posts/bridging-cultures-jilin-university-collaboration/R52_0702.JPG
+  alt: Group photo of Jilin University delegates and Cardiff University team during the workshop.
+  relative: false
+
 # Custom Parameters
 showReadingTime: true
 showWordCount: true
