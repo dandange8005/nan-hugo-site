@@ -42,7 +42,7 @@ Recently, our head of department asked those of us involved in the Marks Process
 
 ## My Role in the Project
 
-As one of the Digital Education/LTA contacts for the MPP, my involvement included attending meetings and workshops, reviewing documentation, and providing technical expertise to support the project team. Josh and I collaborated on reviewing key documents such as the Glossary of Terms and Assessment Glossary. I also participated in the "Setting up Assessment Portals in Blackboard" workshop, which proved invaluable for understanding the practical implementation challenges.
+As one of the Digital Education/LTA contacts for the MPP, my involvement included attending meetings and workshops, reviewing documentation, and providing technical expertise to support the project team. Josh and I collaborated on reviewing key documents such as the Glossary of Terms and Assessment Glossary. A key contribution was creating the [Turnitin vs Blackboard Ultra comparison guide](https://xerte.cardiff.ac.uk/play_18321#tiivsbb), which aimed to clarify the nuances between these tools when it comes to choosing the more appropriate option for setting up assignments. I also participated in the "Setting up Assessment Portals in Blackboard" workshop, which proved invaluable for understanding the practical implementation challenges.
 
 ## What Worked Well
 
