@@ -17,3 +17,6 @@ Projects that I would like to showcase:
 - [ ] COMSC online exam review
 - [ ] Xerte Themes development
 - [ ] Ultra in Ultra Online Course Development
+- [ ] PPIE project
+- [ ] MkDocs for Digital Education at Cardiff University
+- [ ] Inclusive Education Enhancement Model
