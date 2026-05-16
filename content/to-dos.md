@@ -2,8 +2,9 @@
 
 ## To-Dos
 
-- [ ] Contact IT to get my site lifted from restriction
 - [ ] Continue adding portfolio items to the website
+- [ ] To create a new skill for portfolio items.
+- [ ] To create a new skill for blog posts.
 
 ## Portfolio Items to Add
 
