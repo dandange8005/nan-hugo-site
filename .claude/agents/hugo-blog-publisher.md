@@ -73,7 +73,15 @@ hideFooter: false
    - Content Type: "Workshop", "Tutorial", "Guide", "Reflection"
 4. **File Creation**: Use Hugo's naming convention (YYYY-MM-DD-descriptive-title.md)
 5. **Content Formatting**: Apply proper markdown formatting with Hugo-specific features
-6. **Image Handling**: If images are referenced, ensure proper path formatting (/images/filename.ext)
+6. **Image Handling**: If images are provided or referenced:
+   - Convert all images to WebP using Sharp CLI for optimal web performance:
+     ```bash
+     npx sharp-cli -i image.png -o ./output-dir/ -f webp -q 85 resize 1200 --fit inside
+     ```
+   - Store optimised images in `static/images/posts/[post-slug]/`
+   - Update all markdown image references to use `.webp` extension
+   - Remove original PNG/JPG files after conversion
+   - Use descriptive filenames (e.g., `codex-output.webp`, not `image1.webp`)
 7. **Validation**: Check that all frontmatter is complete and properly formatted
 
 ## Categories and Series Guidelines:

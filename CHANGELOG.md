@@ -21,6 +21,10 @@ All notable changes and development work for this Hugo site will be documented i
   - Added Kevin Powell writing style guide to the skill — prioritises short paragraphs, informal connectives, self-deprecating honesty, and specific detail over vague summary
   - Added explicit anti-patterns list to prevent AI-sounding prose
 - Added cross-reference comments to `hugo-blog-publisher` and `portfolio-publisher` agents flagging shared site config fields that should stay in sync
+- Added WebP image optimisation step to `hugo-blog-publisher` and `portfolio-publisher` agents
+  - Both agents now run Sharp CLI (`npx sharp-cli`, max 1200px, quality 85) on all images before publishing
+  - Agents update markdown references to `.webp` and remove original PNG/JPG files
+- Removed `blog-post-polisher` from `.claude/agents/` (migrated to global skill)
 
 ## [2026-05-16]
 

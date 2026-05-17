@@ -95,7 +95,14 @@ featured: false
    - Future development plans
 
 7. **Image Handling**:
-   - Use path format: `/portfolio/[project-name]/images/filename.ext`
+   - Convert all images to WebP using Sharp CLI for optimal web performance:
+     ```bash
+     npx sharp-cli -i image.png -o ./output-dir/ -f webp -q 85 resize 1200 --fit inside
+     ```
+   - Store optimised images in `content/portfolio/[project-name]/images/`
+   - Update all markdown image references to use `.webp` extension
+   - Remove original PNG/JPG files after conversion
+   - Use path format: `/portfolio/[project-name]/images/filename.webp`
    - Set `hiddenInSingle: true` for cover images (shown in lists, hidden in single pages)
    - Suggest gallery shortcode for multiple images
 
@@ -175,8 +182,9 @@ featured: false
 - Include evidence of impact (numbers, quotes, outcomes)
 
 ## Image Best Practices:
+- Always convert images to WebP before adding to the project (see step 7 above)
 - Store images in: `content/portfolio/[project-name]/images/`
-- Use descriptive filenames (e.g., `dashboard-interface.jpg`, not `image1.jpg`)
+- Use descriptive filenames (e.g., `dashboard-interface.webp`, not `image1.webp`)
 - Provide meaningful alt text for accessibility
 - Consider using the gallery shortcode for multiple images:
 ```markdown
