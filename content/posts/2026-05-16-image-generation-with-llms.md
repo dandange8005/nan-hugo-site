@@ -33,31 +33,27 @@ hideFooter: false
 
 It started with a word I didn't know.
 
-A colleague dropped something in our Teams channel — a funny image captioned *"General Pedagogical Dogsbody."* I got "General" and "Pedagogical" well enough, but Dogsbody? No idea. Instead of asking in the thread, I quietly looked it up in ChatGPT.
+A colleague shared something in our Teams channel, a funny image captioned *"General Pedagogical Dogsbody."* I got "General" and "Pedagogical" well enough, but Dogsbody? No idea. Instead of asking in the thread, I quietly looked it up in ChatGPT.
 
-Turns out it's a British slang term for someone who gets landed with every odd job nobody else wants. In a school context — a teaching assistant or support staff member juggling everything from admin work to classroom management, often without much recognition.
+Turns out it's a British slang term for someone who gets landed with every odd job nobody else wants. A teaching assistant, essentially, juggling admin work, classroom management, and everything else, often without much recognition.
 
 The image suddenly made a lot more sense. And it got me thinking.
 
 ## From Slang to Experiment
 
-The original image had a particular style — hand-drawn, busy, the kind of thing you'd pin on a staffroom noticeboard and actually stop to read. I was pretty sure it was AI-generated.
+The original image had a particular style. Hand-drawn, busy, the kind of thing you'd pin on a staffroom noticeboard and actually stop to read. I was pretty sure it was AI-generated.
 
 ![The original dogsbody image shared on Teams](/images/posts/image-generation-with-llms/dogsbody-original.webp)
 
-I'm a visual person. I've always believed a good image does things that text just can't. So I'd been wanting to properly dig into AI image generation for a while — I'd seen some impressive results from Google Gemini and the GPT image models, but hadn't had a reason to sit down and actually push them.
+I'd been wanting to dig into AI image generation properly for a while. I'd seen results from Google Gemini and the GPT image models that caught my attention, but hadn't had a reason to sit down and actually push them.
 
-This felt like a reason.
-
-I wanted to see if I could recreate that style on demand. Not just once, but reliably — something a colleague could pick up and use without having to figure out the prompt from scratch.
-
-So I started pulling at the thread.
+This felt like a reason. So I started pulling at the thread.
 
 ## Building the Prompt
 
 I opened Codex, attached the image, and asked it to break down the visual style and turn that into an image generation prompt.
 
-The first result was decent but too locked to that specific image — it described the dogsbody character rather than the underlying style. So I asked Codex to step back and make something more reusable. Something where you drop in any phrase and get back an illustration that looks like it belongs to the same set.
+The first result was decent but too locked to that specific image. It described the dogsbody character rather than the underlying style. So I asked Codex to step back and make something more reusable. Something where you drop in any phrase and get back an illustration that looks like it belongs to the same set.
 
 After a few rounds, this is what we landed on:
 
@@ -86,19 +82,18 @@ Mood: humorous, warm, slightly chaotic
 
 ---
 
-The top half is the style lock — keep that the same every time. The bottom half, from *Key phrase* onwards, is where you put in your own concept, audience, and details. Swap those out and the style stays consistent.
+The top half is the style lock. Keep that the same every time. The bottom half, from *Key phrase* onwards, is where you put in your own concept, audience, and details. Swap those out and the style stays consistent.
 
-What I found useful here is how specific the prompt is. It doesn't just describe what you want — it also sets guardrails around what to avoid. That second part matters more than it might seem. Without it, AI image tools tend to drift toward photorealism or corporate vector art, which is the opposite of what this style needs.
+What I found useful here is how specific the prompt is. It describes what you want, but the second part matters just as much: what to avoid. Without those guardrails, AI image tools tend to drift toward photorealism or corporate vector art, which is the opposite of what this style needs.
 
 ## Three Tools, One Prompt
 
-With the prompt ready, I wanted to see how different tools handled the same input. So I took it into Codex, Google Gemini, and Microsoft Copilot — no tweaks, same text, same phrase across all three.
+With the prompt ready, I wanted to see how different tools handled the same input. So I took it into Codex, Google Gemini, and Microsoft Copilot. No tweaks, same text, same phrase across all three.
 
 ![Screenshot of Codex generating the image](/images/posts/image-generation-with-llms/image-gen-codex-screenshot.webp)
 *Codex working on it*
 
-
-Speed-wise, Gemini was fastest by a clear margin — done in under a minute. Copilot wasn't far behind. Codex took noticeably longer.
+Speed-wise, Gemini was fastest by a clear margin. Done in under a minute. Copilot wasn't far behind. Codex took noticeably longer.
 
 ![Codex output](/images/posts/image-generation-with-llms/codex-output.webp)
 *Codex*
@@ -109,13 +104,13 @@ Speed-wise, Gemini was fastest by a clear margin — done in under a minute. Cop
 ![Copilot output](/images/posts/image-generation-with-llms/copilot-output.webp)
 *Copilot*
 
-Codex was the slowest, but for me it was the strongest. It picked up on the hand-drawn quality in a way the others didn't quite manage — it felt like something you'd actually use, rather than something that just looked generated.
+Codex was the slowest, but for me it was the strongest. It picked up on the hand-drawn quality in a way the others didn't quite manage. It felt like something you'd actually use, rather than something that just looked generated.
 
-## Going Further: A More Complex Example
+## A More Specific Ask
 
-That first experiment was fairly contained — one phrase, one visual metaphor. But I was curious how these tools handled something more demanding.
+That first experiment was fairly contained. One phrase, one visual metaphor. I was curious how these tools handled something more demanding.
 
-A colleague asked if I could help generate a very specific image for a learning resource they were building. They needed something that looked like a real Facebook screenshot — not a mock-up, not a graphic, but something photorealistic enough to use in an educational context. Here's the prompt we put together:
+A colleague needed an image for a learning resource they were building. Not a mock-up or a graphic, but something photorealistic enough to pass as an actual Facebook screenshot. Here's the prompt we put together:
 
 ```
 Highly realistic screenshot of a Facebook post on a desktop browser.
@@ -147,13 +142,11 @@ Ultra‑realistic, documentary style, looks like a real Facebook screenshot some
 
 ![AI-generated Facebook screenshot for educational use](/images/posts/image-generation-with-llms/facebook-example.webp)
 
-The level of detail in that output genuinely surprised me. Getting the Teams interface right, the comment styling, even the caption tone — that's not something I'd have expected to work this well a year ago.
+The level of detail genuinely surprised me. Getting the Teams interface right, the comment styling, even the caption tone. A year ago I wouldn't have expected any of that to hold together.
 
-## What's Next
+## What Comes Next
 
-I'm pretty impressed by where image generation has landed. The educational potential is real — visual explanations of tricky concepts, scenario-based learning materials, inclusive illustrations, historical reconstructions. There's a lot to explore.
-
-For me though, the most interesting next step is the illustration prompt from earlier in this post. I'd like to develop it into a simple standalone tool — something a teacher could open without needing access to any particular AI platform, type in a phrase, and get back a consistent illustration style.
+The most interesting thing to come out of this, for me, is the illustration prompt. I'd like to develop it into something more accessible, a simple tool where a colleague can type in a phrase and get back a consistent illustration without having to think about the prompt structure at all.
 
 No idea if that's a week's work or a month's work. We will see how it goes.
 
