@@ -2,6 +2,35 @@
 
 All notable changes and development work for this Hugo site will be documented in this file.
 
+## [2026-05-17]
+
+### Added
+- New blog post: "Teaching an AI to Illustrate: Building a Consistent Image Generation Prompt"
+  - Documents an experiment comparing AI image generation across Codex, Gemini, and Copilot
+  - Includes reusable educational illustration prompt template
+  - Images stored in `static/images/posts/image-generation-with-llms/`
+
+### Optimised
+- Converted all 6 post images from PNG to WebP using Sharp CLI (max 1200px wide, quality 85)
+  - Total image payload reduced from ~8.5 MB to ~1.2 MB (86% reduction)
+  - Updated all image references in post markdown to `.webp`
+
+### Changed
+- Converted `blog-post-polisher` from a `.claude/agents/` agent to a global skill at `~/.claude/skills/blog-post-polisher/`
+  - Skill is now invoked via `/blog-post-polisher` in the main conversation rather than as a subagent
+  - Added Kevin Powell writing style guide to the skill — prioritises short paragraphs, informal connectives, self-deprecating honesty, and specific detail over vague summary
+  - Added explicit anti-patterns list to prevent AI-sounding prose
+- Added cross-reference comments to `hugo-blog-publisher` and `portfolio-publisher` agents flagging shared site config fields that should stay in sync
+
+## [2026-05-16]
+
+### Changed
+- Bumped `HUGO_VERSION` in `netlify.toml` from `0.159.1` to `0.161.1` to match local Hugo version and avoid build divergence
+- Renamed `content/posts/2025-01-19.md` to `2025-01-19-creating-simple-image-processing-app-using-generative-ai.md` to follow date-slug naming convention (URL unchanged — slug set in frontmatter)
+
+### Maintenance
+- Set up weekly automated site health check (every Monday 9am BST) covering: Hugo version drift, PaperMod submodule updates, draft posts, and file naming consistency
+
 ## [2025-12-08]
 
 ### Changed
