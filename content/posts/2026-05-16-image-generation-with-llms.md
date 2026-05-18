@@ -95,14 +95,11 @@ With the prompt ready, I wanted to see how different tools handled the same inpu
 
 Speed-wise, Gemini was fastest by a clear margin. Done in under a minute. Copilot wasn't far behind. Codex took noticeably longer.
 
-![Codex output](/images/posts/image-generation-with-llms/codex-output.webp)
-*Codex*
-
-![Gemini output](/images/posts/image-generation-with-llms/gemini-output.webp)
-*Gemini*
-
-![Copilot output](/images/posts/image-generation-with-llms/copilot-output.webp)
-*Copilot*
+{{< gallery columns="3" >}}
+/images/posts/image-generation-with-llms/codex-output.webp | Codex
+/images/posts/image-generation-with-llms/gemini-output.webp | Gemini
+/images/posts/image-generation-with-llms/copilot-output.webp | Copilot
+{{< /gallery >}}
 
 Codex was the slowest, but for me it was the strongest. It picked up on the hand-drawn quality in a way the others didn't quite manage. It felt like something you'd actually use, rather than something that just looked generated.
 

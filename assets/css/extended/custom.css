@@ -104,16 +104,15 @@ a:hover {
 .gallery-item {
   position: relative;
   overflow: hidden;
-  border-radius: 8px;
-  background: var(--tertiary);
+  border-radius: 6px;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 6px;
+  transition: opacity 0.3s ease;
 }
 
 .gallery-link {
@@ -122,15 +121,15 @@ a:hover {
 }
 
 .gallery-link:hover img {
-  transform: scale(1.05);
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .gallery-caption {
-  padding: 0.5rem;
-  font-size: 0.875rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
   color: var(--secondary);
   text-align: center;
+  font-style: italic;
 }
 
 /* Lightbox styles */
